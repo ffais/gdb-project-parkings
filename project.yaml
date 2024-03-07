@@ -68,9 +68,9 @@ spec:
     handler: parking_pipeline
   artifacts: []
   conda: ''
-  source: git://github.com/scc-digitalhub/gdb-project-parkings.git#refs/heads/main
-  origin_url: git://github.com/scc-digitalhub/gdb-project-parkings.git#refs/heads/main
-  load_source_on_run: false
+  source: git://github.com/ffais/gdb-project-parkings.git#refs/heads/main
+  origin_url: git://github.com/ffais/gdb-project-parkings.git#refs/heads/main
+  load_source_on_run: true
   desired_state: online
   build:
     commands: []
